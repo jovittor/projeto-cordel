@@ -1,0 +1,89 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@media (max-width: 760px){
+
+header > h1 {
+    font-size: 3em;
+}
+section > p
+{
+    font-size: 0.6em;
+    line-height: 1.5em;
+}
+
+}
+
+:root{
+    --fonte-padrão:  Verdana, Geneva, Tahoma, sans-serif;
+    --fonte-destaque: 'Passion One', cursiva;
+    --fonte-hand-write: 'Sriracha', cursiva;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    min-height: 100%;
+    background-color: darkgray;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+h1{
+    font-variant: small-caps;
+    font-family: var(--fonte-destaque);
+    font-size: 5em;
+}
+a{
+    color: white;
+    text-decoration:none;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
+section{
+    padding:10vh 0 10vh 5vh;
+    line-height: 2em;
+    font-family: var(--fonte-hand-write);
+    font-size: 2em;}
+   
+section > p{
+    padding-bottom: 2em;
+}
+.imagem{
+    background-color: rgba(0, 0, 0, 0.658);
+    color: white;
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.61);
+}
+.imagem > p{
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.281);
+    text-shadow: 1px 1px 0px black;
+
+}
+section#img01{
+    background-image: url('../cordel/imagens/background001.jpg');
+}
+section#img02{
+    background-image: url('../cordel/imagens/background002.jpg');
+}
+.normal{
+    background-color: white;
+}
+ footer{
+     background-color: black;
+     color: white;
+     text-align: center;
+     padding: 2vh;
+ }   
