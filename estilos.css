@@ -8,8 +8,15 @@ header > h1 {
 }
 section > p
 {
-    font-size: 0.6em;
+    font-size: 0.7em;
     line-height: 1.6em;
+}
+section>#img01{
+    background-image: url("imagens/para-celular.png");
+    background-position: left center;
+}
+section>#img02{
+    background-image: url("imagens/folha-pq.png");
 }
 
 }
