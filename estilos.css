@@ -11,12 +11,15 @@ section > p
     font-size: 0.7em;
     line-height: 1.6em;
 }
-section>#img01{
-    background-image: url("imagens/para-celular.png");
-    background-position: left center;
+section#img1{
+    background-image: url("../projeto-cordel/imagens/joaninha.png");
+    background-position: right center;
 }
-section>#img02{
-    background-image: url("imagens/folha-pq.png");
+section#img2{
+    background-image: url("../projeto-cordel/imagens/folha-pq.png");
+}
+#img{
+    background-image: url('../projeto-cordel/imagens/me2.png');
 }
 
 }
@@ -79,10 +82,10 @@ section > p{
     text-shadow: 1px 1px 0px black;
 
 }
-section#img01{
+section.img01{
     background-image: url('../projeto-cordel/imagens/background001.jpg');
 }
-section#img02{
+section.img02{
     background-image: url('../projeto-cordel/imagens/background002.jpg');
 }
 .normal{
